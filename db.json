@@ -34,6 +34,13 @@
       "createdAt": "2023-09-30T17:17:36.292Z",
       "updatedAt": "2023-09-30T17:17:36.292Z",
       "id": "tweet-f7974c55-023b-470e-8a98-a3aeee4be709"
+    },
+    {
+      "message": "First GraphQL Mutation Tweet!",
+      "userId": "user-78baa367-725a-4f11-994a-b41a2341fde6",
+      "createdAt": "2023-09-30T20:45:46.216Z",
+      "updatedAt": "2023-09-30T20:45:46.216Z",
+      "id": "tweet-5fa92a0a-c90f-4fb2-8600-c93c20e9382a"
     }
   ],
   "users": [
@@ -158,28 +165,19 @@
   ],
   "topicTrends": [
     {
-      "topic": "Frontend Masters",
-      "tweetCount": 12345,
-      "kind": "topic",
-      "id": "topictrend-967b5864-33f5-4be5-98ce-f267fdce1b8e"
-    },
-    {
       "topic": "Pointless Suggestions",
       "tweetCount": 999,
       "kind": "topic",
       "id": "topictrend-b0d74167-cdb8-4da1-8f53-d0f1e60a8f54"
-    }
-  ],
-  "topicTrendQuotes": [
+    },
     {
       "topic": "Frontend Masters",
       "tweetCount": 12345,
-      "title": "Frontend Masters",
-      "description": "Launch of new full stack TS course",
-      "imageUrl": "http://localhost:3000/static/fem_logo.png",
-      "topicTrendId": "topictrend-967b5864-33f5-4be5-98ce-f267fdce1b8e",
-      "id": "topictrendquote-f035dd2c-9014-4bb1-b409-1b58cf442c38"
-    },
+      "kind": "topic",
+      "id": "topictrend-967b5864-33f5-4be5-98ce-f267fdce1b8e"
+    }
+  ],
+  "topicTrendQuotes": [
     {
       "topic": "Pointless Suggestions",
       "tweetCount": 999,
@@ -188,6 +186,15 @@
       "imageUrl": "http://localhost:3000/static/clippy-logo.jpeg",
       "topicTrendId": "topictrend-b0d74167-cdb8-4da1-8f53-d0f1e60a8f54",
       "id": "topictrendquote-8758d130-a804-424e-a91c-03e0e3e19822"
+    },
+    {
+      "topic": "Frontend Masters",
+      "tweetCount": 12345,
+      "title": "Frontend Masters",
+      "description": "Launch of new full stack TS course",
+      "imageUrl": "http://localhost:3000/static/fem_logo.png",
+      "topicTrendId": "topictrend-967b5864-33f5-4be5-98ce-f267fdce1b8e",
+      "id": "topictrendquote-f035dd2c-9014-4bb1-b409-1b58cf442c38"
     }
   ],
   "suggestions": [
