@@ -16,8 +16,8 @@ const queryTwitterResolver: QueryResolvers<TwitterResolverContext> = {
     return db.getAllSuggestions();
   },
   tweets: (
-    _,
-    __,
+    _parent,
+    _args,
     { db, dbTweetToFavoriteCountMap, dbUserCache, dbTweetCache }
   ) => {
     db.getAllUsers().forEach((user) => {
